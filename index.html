@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TRIVIALIDADES</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div id="page1">
+    <span class="titulo">
+      TRIVIALIDADES
+    </span>
+    <p>
+      <img src="https://interfacecomunicacao.com.br/news/meusmiolos/cerebro-ideia.gif" height="300px"
+        width="300px"><br><br>
+      <label for="fname" class="nombrejugador">Nombre del jugador:</label><br><br>
+      <input type="text" id="nombredeljugador" name="nombredeljugador"><br><br>
+      <button onclick="empezarjuego()" class="empezarjuego">
+        Empezar trivia
+      </button>
+    </p>
+  </div>
+
+  <div id="page2">
+    <P id="mostrarnombre"> </P>
+    <div class="contenedor">
+      <section class="preguntas">
+        <h3> 1.- ¿Que emperador romano intentó operarse para hacerse un cambio de sexo? </h3>
+        <ul style="list-style-type: none;">
+          <li>
+            <label>
+              <input type="radio" value="CORRECTO" name="pregunta01"> Marco Aurelio
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" value="INCORRECTA" name="pregunta01"> César Augusto
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" value="INCORRECTA" name="pregunta01"> Nerón
+            </label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="preguntas">
+        <h3> 2.- ¿En qué año se firmó el Tratado de Versalles? </h3>
+        <ul style="list-style-type: none;">
+          <li>
+            <label>
+              <input type="radio" value="INCORRECTO" name="pregunta02"> 1918
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" value="INCORRECTO" name="pregunta02"> 1820
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" value="CORRECTO" name="pregunta02"> 1919
+            </label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="preguntas">
+        <h3> 3.- ¿Cuál es considerado el detonante principal de la Primera Guerra Mundial? </h3>
+        <ul style="list-style-type: none;">
+          <li>
+            <label>
+              <input type="radio" value="CORRECTO" name="pregunta03"> Asesinato del archiduque de hungria-autria
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" value="INCORRECTO" name="pregunta03"> Resentimiento de la patria alemana por los
+              términos del
+              Tratado de Versalles
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" value="INCORRECTO" name="pregunta03"> La bomba atómica lanzada en Hiroshima
+            </label>
+          </li>
+        </ul>
+
+    </div>
+    </section>
+
+    <section id="respuestas-Resultados">
+      <button id="boton-respuestas-resultados" onclick="VerResultados()"> RESPONDER Y VER RESULTADOS </button><br>
+    </section>
+  </div>
+
+  <div id="page3">
+    <section class="reiniciar">
+      <p id="total" class="titulorespuestas"></p>
+    
+      <h3> 1.- ¿Que emperador romano intentó operarse para hacerse un cambio de sexo? </h3>
+      <ul style="list-style-type: none;">
+        <p id="respuesta1"> </p>
+        <li class="respuestacorrecta"> Marco Aurelio es la respuesta </li>
+      </ul>
+
+      <h3> 2.- ¿En qué año se firmó el Tratado de Versalles? </h3>
+      <ul style="list-style-type: none;">
+        <p id="respuesta2"> </p>
+        <li class="respuestacorrecta"> 1919 es la respuesta </li>
+      </ul>
+
+      <h3> 3.- ¿Cuál es considerado el detonante principal de la Primera Guerra Mundial? </h3>
+      <ul style="list-style-type: none;">
+        <p id="respuesta3"> </p>
+        <li class="respuestacorrecta"> El asesinato del archiduque de hungria-autria es la respuesta </li>
+      </ul>
+      <img src="https://i.pinimg.com/originals/00/42/9e/00429ef2ae9d49240d8017a9103aaf06.gif" height="250px" width="250px"
+        class="felicidades"><br><br>
+      <button id="boton-reiniciar" onclick="location.reload ()"> VOLVER A JUGAR </button><br><br>
+
+    </section>
+  </div>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

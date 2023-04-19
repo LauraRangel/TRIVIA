@@ -1,4 +1,4 @@
-unction empezarjuego() {
+function empezarjuego() {
   document.getElementById("page1").style.display = "none";
   const nombre = document.getElementById("nombredeljugador").value;
   document.getElementById("mostrarnombre").innerHTML = " Hola " + nombre + "!";

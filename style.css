@@ -1,0 +1,167 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(180,182,222,1) 64%, rgba(165,184,227,1) 81%, rgba(148,187,233,1) 100%);
+}
+
+#page1 {
+  text-align: center;
+  font-family: "Segoe UI";
+  margin-top: 108px;
+}
+
+.titulo{
+  font-size: 50px;
+  font-weight: 900;
+  color: #5a61bc;
+}
+
+.nombrejugador{
+  font-weight: 800;
+  font-size: 20px;
+}
+
+#nombredeljugador{
+  padding: 6px;
+  font-weight: 600;
+  font-size: 20px;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: #dd3131;
+  background: transparent;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.empezarjuego{
+  font-weight: 800;
+  padding: 10px 16px;
+  margin: 20px;
+  font-size: 15px;
+  font-family: "Segoe UI";
+  border-radius: 10px;
+ }
+
+#page2{
+  display: none;
+  font-family: "Segoe UI";
+}
+
+#mostrarnombre{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  color: #c52c9f;
+  font-style: italic;
+}
+
+.contenedor h3 {
+  color: #000000; 
+  text-align: center;
+  padding: ; 
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 10px;
+  
+} 
+
+.preguntas{
+  padding: 10px 16px;
+  border: dotted;
+  border-radius: 10px;
+  border-color: #eb00b0;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 15px;
+  box-shadow: 26px 13px 38px -3px rgba(0,0,0,0.1);
+}
+
+.contenedor ul li {
+  font-family: 'Segoe UI';
+  font-size: 20px;
+ }
+
+#reiniciar{
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 40px;
+  padding: 3px;
+}
+
+#boton-respuestas-resultados{
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 14px 16px;
+  margin: 19px;
+  border-radius: 39px;
+  background: #ca2626
+}
+
+#respuestas-Resultados{
+  text-align: center;
+}
+
+#page3{
+  display: none;
+  font-family: "Segoe UI";
+  text-align: center;
+  margin-top: 108px;
+}
+
+.titulorespuestas{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  color: #c52c9f;
+}
+
+.reiniciar h3 {
+  padding: 10px 16px;
+  border: dotted;
+  border-radius: 10px;
+  border-color: #eb00b0;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 15px;
+  box-shadow: 26px 13px 38px -3px rgba(0,0,0,0.1);
+}
+
+.reiniciar{
+  margin-top: 105px;
+}
+
+.respuestacorrecta{
+  font-style: italic;
+}
+
+#respuesta1{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#respuesta2{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#respuesta3{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.felicidades{
+  margin-top: 29px;
+  margin-bottom: -34px;
+}
+
+#boton-reiniciar{
+  font-size: 17px;
+  font-weight: 900;
+  border-radius: 19px;
+  border-width: 7px;
+  background: #e3af35;
+  padding: 7px 19px;
+  margin: 25px;
+}
